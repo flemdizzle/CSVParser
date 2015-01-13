@@ -5,8 +5,8 @@ var outputFileName = "output/NTD.json";
 
 fs.readFile(fileName, "utf8", function(err, data){
   var output = {};
-  output["name"]= "hello";
-  data.substr(0,13);
+  output["name"]= data.substr(0,13);
+  output["stuff"]= data.substr(14,20);
   writeJSON(JSON.stringify(output));
 
 });
