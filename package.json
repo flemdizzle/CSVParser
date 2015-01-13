@@ -1,0 +1,22 @@
+{
+  "name": "CSVParser",
+  "version": "0.0.0",
+  "description": "CSV parser that creates nested JSON for D3 visualizations",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flemdizzle/CSVParser.git"
+  },
+  "author": "Steven Fleming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flemdizzle/CSVParser/issues"
+  },
+  "homepage": "https://github.com/flemdizzle/CSVParser",
+  "dependencies": {
+    "csv": "^0.4.1"
+  }
+}
